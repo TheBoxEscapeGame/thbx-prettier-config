@@ -1,5 +1,7 @@
 # Prettier Configuration
 
+[![Build](https://github.com/TheBoxEscapeGame/thbx-prettier-config/actions/workflows/build.yaml/badge.svg)](https://github.com/TheBoxEscapeGame/thbx-prettier-config/actions/workflows/build.yaml)
+
 This is the standard Prettier configuration we use at [The Box Escape Rooms](https://the-box.fr/en/online/).
 
 ## Usage
