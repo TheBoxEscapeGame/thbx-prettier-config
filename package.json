@@ -1,6 +1,6 @@
 {
   "name": "@thbx/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "publishConfig": {
@@ -14,12 +14,13 @@
     "check:prettier": "prettier --check .",
     "check": "npm run check:prettier && npm run check:eslint"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^2.0.4",
     "prettier": "^2.4.1"
   },
   "devDependencies": {
     "@thbx/eslint-config-typescript": "^1.0.0",
+    "@thbx/tsconfig": "^1.0.0",
     "@types/prettier": "^2.4.1",
     "eslint": "^7.32.0",
     "typescript": "^4.4.3"
