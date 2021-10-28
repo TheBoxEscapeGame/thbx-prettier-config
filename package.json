@@ -14,7 +14,7 @@
     "check:prettier": "prettier --check .",
     "check": "npm run check:prettier && npm run check:eslint"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^2.0.4",
     "prettier": "^2.4.1"
   },
